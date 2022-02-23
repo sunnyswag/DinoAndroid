@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>v
+<resources>
     <dimen name="groundToTop">30dp</dimen>
+    <dimen name="referencesTopMargin">20dp</dimen>
+    <dimen name="referencesTextSize">20sp</dimen>
 </resources>

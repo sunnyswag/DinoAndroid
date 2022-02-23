@@ -20,4 +20,25 @@
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="@string/dinoIcon" />
 
+    <TextView
+        android:id="@+id/references"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/referencesTopMargin"
+        android:text="@string/references"
+        android:textSize="@dimen/referencesTextSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dino_icon" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/referencesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/referencesTopMargin"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/references" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
