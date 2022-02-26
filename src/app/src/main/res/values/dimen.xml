@@ -3,4 +3,7 @@
     <dimen name="groundToTop">30dp</dimen>
     <dimen name="referencesTopMargin">20dp</dimen>
     <dimen name="referencesTextSize">20sp</dimen>
+    <dimen name="itemImageSize">20dp</dimen>
+    <dimen name="itemImageMargin">10dp</dimen>
+    <dimen name="referencesListHeight">50dp</dimen>
 </resources>

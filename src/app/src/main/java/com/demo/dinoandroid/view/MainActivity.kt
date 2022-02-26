@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.demo.dinoandroid.R
+import com.demo.dinoandroid.adapter.ReferencesListAdapter
+import com.demo.dinoandroid.domain.ReferenceData
 import pl.droidsonroids.gif.GifImageView
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         references.setOnClickListener {
+            val dataSet = listOf(ReferenceData("123", "12432"),
+                ReferenceData("1234", "124322"))
+            referencesList.layoutManager = LinearLayoutManager(this)
+            referencesList.adapter = ReferencesListAdapter(dataSet)
             referencesList.visibility = View.VISIBLE
         }
     }

@@ -3,4 +3,5 @@
     <string name="dinoIcon">dinoIcon</string>
     <string name="testString">testString</string>
     <string name="references">REFERENCES</string>
+    <string name="authorIcon">the icon of the author in Github</string>
 </resources>
