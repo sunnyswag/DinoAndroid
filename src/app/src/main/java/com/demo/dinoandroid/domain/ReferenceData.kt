@@ -1,5 +1,6 @@
 package com.demo.dinoandroid.domain
 
-data class ReferenceData(val repositoryName: String, val authorIcon: String) {
-
-}
+data class ReferenceData(
+    val repositoryName: String,
+    val authorIcon: String,
+    val repositoryUrl: String)

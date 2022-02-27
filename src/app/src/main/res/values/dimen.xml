@@ -6,4 +6,6 @@
     <dimen name="itemImageSize">20dp</dimen>
     <dimen name="itemImageMargin">10dp</dimen>
     <dimen name="referencesListHeight">50dp</dimen>
+    <dimen name="referencesListWidth">100dp</dimen>
+    <dimen name="referencesItemMargin">10dp</dimen>
 </resources>

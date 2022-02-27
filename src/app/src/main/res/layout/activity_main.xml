@@ -33,7 +33,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/referencesList"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/referencesListWidth"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/referencesTopMargin"
         android:visibility="gone"
