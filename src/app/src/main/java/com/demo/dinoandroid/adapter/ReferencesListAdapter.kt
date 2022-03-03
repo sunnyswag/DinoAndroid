@@ -37,7 +37,7 @@ class ReferencesListAdapter(private val dataSet: List<ReferenceData>,
     ): ViewHolder {
         return ViewHolder(parent).apply { itemView.setOnClickListener{
             itemView.context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(repositoryUrl)))
-            viewModel.referenceSelected.value = false
+            viewModel.referenceListDisplay.value = false
         } }
     }
 
