@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/ground"
-        android:layout_marginTop="@dimen/groundToTop"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:layout_marginBottom="@dimen/groundToTop"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
